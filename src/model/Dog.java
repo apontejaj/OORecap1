@@ -15,15 +15,13 @@ public class Dog {
     private String breed;
     private boolean vaccined;
     private Person owner;
-    
-    
+     
     public Dog(String name){
         this.name = name;
         this.breed = "Mixed";
         this.vaccined = false;
         this.owner = null;
-          
-        
+ 
     }
 
     public String getName() {

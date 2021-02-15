@@ -23,12 +23,14 @@ public class Person {
         this.name = "Amilcar";
     }
     
+    // Another constructor
     public Person(int age, String gender, String name){
         this.age = age;
         this.gender = gender;
         this.name = name;
     }
     
+    // Some behaviour (methods)
     public String run(){
         return this.name + " is running";
     }
@@ -61,6 +63,8 @@ public class Person {
         this.name = name;
     }
  
+    // The toString method tells Java how to print
+    // an instance of this object to the console.
     @Override
     public String toString(){
         return "Name: " + this.name + " Gender: " + this.gender + " Age: " + this.age;
