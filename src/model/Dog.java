@@ -46,9 +46,6 @@ public class Dog {
         return vaccined;
     }
 
-    public void setVaccined(boolean vaccined) {
-        this.vaccined = vaccined;
-    }
 
     public Person getOwner() {
         return owner;

@@ -17,6 +17,7 @@ public class Person {
     
     // Default Constructor
     public Person(){
+        System.out.println("new person created");
         this.age = 18;
         this.gender = "Female";
         this.name = "Amilcar";
